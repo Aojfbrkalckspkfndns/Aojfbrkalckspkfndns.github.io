@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nibbleverse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-mode">
+
+    <header class="header">
+<button id="hamburger" class="hamburger" aria-label="Toggle Sidebar">☰</button>
+    <div class="brand">Welcome to Nibbleverse</div>
+    <div class="toggle-container">
+<button id="theme-toggle" class="theme-switch">
+        <span class="icon sun">☀️</span>
+        <span class="icon moon">🌙</span>
+</button>
+    </div>
+    </header>
+
+<nav class="sidebar" id="sidebar" aria-label="Sidebar Navigation">
+<h1>Nibbleverse</h1>
+    <input type="text" id="sidebar-search" placeholder="Search..." aria-label="Search Sidebar Items">
+<button class="navigate clean-button" data-link="cpu.html">CPU</button>
+<button class="navigate clean-button" data-link="gpu.html">GPU</button>
+<button class="navigate clean-button" data-link="motherboard.html">Motherboard</button>
+<button class="navigate clean-button" data-link="ram.html">RAM</button>
+<button class="navigate clean-button" data-link="storage.html">Storage</button>
+<button class="navigate clean-button" data-link="cooling.html">Cooling</button>
+<button class="navigate clean-button" data-link="powersupplyunit.html">Power Supply Unit</button>
+<button class="navigate clean-button" data-link="memory.html">Memory</button>
+    <div class="settings">
+<button class="clean-button" onclick="openAbout()">About</button>
+    </div>
+</nav>
+
+    <main class="main-content">
+<div class="dashboard-sections">
+<section class="dashboard-section">
+<h3>CPU Performance</h3>
+    <p>Placeholder for CPU stats or analytics.</p>
+</section>
+    <section class="dashboard-section">
+<h3>GPU Insights</h3>
+    <p>Placeholder for GPU performance or charts.</p>
+</section>
+<section class="dashboard-section">
+<h3>Storage Overview</h3>
+    <p>Placeholder for storage usage and capacity data.</p>
+</section>
+<section class="dashboard-section">
+<h3>Power Supply Analysis</h3>
+    <p>Placeholder for power supply metrics.</p>
+</section>
+    </div>
+</main>
+
+<section class="features">
+    <h2>Why Choose Nibbleverse?</h2>
+<div class="features-container">
+    <div class="feature-box">
+    <h3>🔒 Secure & Private</h3>
+        <p>Your learning experience is safe and protected.</p>
+    </div>
+<div class="feature-box">
+    <h3>🎯 Simple & Beginner-Friendly</h3>
+        <p>Designed for anyone to understand, no tech skills needed!</p>
+    </div>
+<div class="feature-box">
+    <h3>🌍 Learn Anytime, Anywhere</h3>
+        <p>Access Nibbleverse on any device.</p>
+</div>
+    </div>
+    </section>
+
+<footer>
+    <p>&copy; 2025 Nibbleverse. All Rights Reserved.</p>
+</footer>
+
+<button id="feedback-button" class="feedback-button" onclick="window.location.href='feedback.html';">💬 Feedback</button>
+
+    <script src="script.js" defer></script>
+</body>
+
+  </html>
